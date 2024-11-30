@@ -129,9 +129,8 @@ class MpMassImport extends \MpSoft\MpMassImport\Module\ModuleTemplate
         return $helper->generateForm($fields_form);
     }
 
-    public function hookHeader($params)
+    public function hookActionAdminControllerSetMedia($params)
     {
         $this->context->controller->addCSS($this->_path . 'css/mpmassimport.css', 'all');
     }
 }
-?>

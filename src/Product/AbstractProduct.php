@@ -19,10 +19,10 @@
  */
 
 namespace MpSoft\MpMassImport\Product;
-use MpSoft\MpMassImportProducts\Product\Enum\Condition;
-use MpSoft\MpMassImportProducts\Product\Enum\ProductType;
-use MpSoft\MpMassImportProducts\Product\Enum\RedirectType;
-use MpSoft\MpMassImportProducts\Product\Enum\Visibility;
+use MpSoft\MpMassImport\Product\Enum\Condition;
+use MpSoft\MpMassImport\Product\Enum\ProductType;
+use MpSoft\MpMassImport\Product\Enum\RedirectType;
+use MpSoft\MpMassImport\Product\Enum\Visibility;
 
 abstract class AbstractProduct
 {

@@ -19,7 +19,7 @@
  */
 
 namespace MpSoft\MpMassImport\Test;
-use MpSoft\MpMassImportProducts\Product\AbstractProduct;
+use MpSoft\MpMassImport\Product\AbstractProduct;
 
 class TestInsertProduct extends AbstractProduct
 {

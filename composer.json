@@ -10,7 +10,8 @@
     "require": {
         "php": ">=7.4.0",
         "prestashop/prestashop-webservice-lib": "dev-master",
-        "phpoffice/phpspreadsheet": "^1.29"
+        "phpoffice/phpspreadsheet": "^1.29",
+        "fawno/wget": "^1.0"
     },
     "autoload": {
         "psr-4": {
